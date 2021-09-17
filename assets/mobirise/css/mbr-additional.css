@@ -4099,6 +4099,22 @@ a {
 .cid-sJfBdCvTZm .card-text {
   text-align: center;
 }
+.cid-sJhr8qKfZ2 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sJhr8qKfZ2 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sJhr8qKfZ2 .row {
+  flex-direction: row-reverse;
+}
+.cid-sJhr8qKfZ2 img {
+  width: 100%;
+}
 .cid-sIFuBrnuEM {
   padding-top: 2rem;
   padding-bottom: 2rem;
