@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "RESGUARDO",
-    "currentPage": "page8.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -83,7 +83,7 @@
         "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,500,600,700"
       }
     ],
-    "uniqCompNum": 191,
+    "uniqCompNum": 193,
     "versionPublish": "5.4.1",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -3813,11 +3813,12 @@
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor"
           },
-          "_name": "content5",
+          "_name": "content11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\"><b>\n                    REFERENCIAS</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">[1]\t“Epilepsia”. https://www.who.int/es/news-room/fact-sheets/detail/epilepsy (consultado sep. 08, 2021).\n<br>[2]\tJ. G. Burneo, D. A. Steven, M. Arango, W. Zapata, C. M. Vasquez, y A. Becerra, “La cirugía de epilepsia y el establecimiento de programas quirúrgicos en el Perú: El proyecto de colaboración entre Perú y Canadá”, Rev. Neuropsiquiatr., vol. 80, núm. 3, pp. 181–188, 2017.\n<br>[3]\tD. Guillén-Pinto et al., “Epilepsia en niños atendidos en el Hospital Nacional Cayetano Heredia de Lima, Perú, 2010- 2016: Lima, Peru, 2010-2016”, Rev. Neuropsiquiatr., vol. 81, núm. 4, pp. 217–225, 2018.\n<br>[4]\tC. Alva-Díaz et al., “Prevalence and incidence of epilepsy in Latin America and the Caribbean: A systematic review and meta-analysis of population-based studies”, Epilepsia, vol. 62, núm. 4, pp. 984–996, abr. 2021.\n<br>[5]\t“Convulsiones - Síntomas y causas - Mayo Clinic”. https://www.mayoclinic.org/es-es/diseases-conditions/seizure/symptoms-causes/syc-20365711 (consultado sep. 08, 2021).</p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sIIH8hWldO",
-          "_anchor": "content5-3q",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info\" href=\"page5.html\" data-app-placeholder=\"Type Text\">CONTEXTO</a>\n                    <a class=\"btn btn-info\" href=\"page6.html\" data-app-placeholder=\"Type Text\">DEFINICIÓN</a> <a class=\"btn btn-info\" href=\"page7.html\" data-app-placeholder=\"Type Text\">EFECTOS</a> <a class=\"btn btn-info\" href=\"page8.html\" data-app-placeholder=\"Type Text\">CAUSAS</a> <a class=\"btn btn-info\" href=\"page9.html\" data-app-placeholder=\"Type Text\">PROPUESTA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content11-4n",
+          "_isUserblock": true,
+          "_cid": "sJfEizVdyR",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3830,12 +3831,11 @@
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor"
           },
-          "_name": "content11",
+          "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info\" href=\"page5.html\" data-app-placeholder=\"Type Text\">CONTEXTO</a>\n                    <a class=\"btn btn-info\" href=\"page6.html\" data-app-placeholder=\"Type Text\">DEFINICIÓN</a> <a class=\"btn btn-info\" href=\"page7.html\" data-app-placeholder=\"Type Text\">EFECTOS</a> <a class=\"btn btn-info\" href=\"page8.html\" data-app-placeholder=\"Type Text\">CAUSAS</a> <a class=\"btn btn-info\" href=\"page9.html\" data-app-placeholder=\"Type Text\">PROPUESTA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content11-4n",
-          "_isUserblock": true,
-          "_cid": "sJfEizVdyR",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\"><b>\n                    REFERENCIAS</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">[1]\t“Epilepsia”. https://www.who.int/es/news-room/fact-sheets/detail/epilepsy (consultado sep. 08, 2021).\n<br>[2]\tJ. G. Burneo, D. A. Steven, M. Arango, W. Zapata, C. M. Vasquez, y A. Becerra, “La cirugía de epilepsia y el establecimiento de programas quirúrgicos en el Perú: El proyecto de colaboración entre Perú y Canadá”, Rev. Neuropsiquiatr., vol. 80, núm. 3, pp. 181–188, 2017.\n<br>[3]\tD. Guillén-Pinto et al., “Epilepsia en niños atendidos en el Hospital Nacional Cayetano Heredia de Lima, Perú, 2010- 2016: Lima, Peru, 2010-2016”, Rev. Neuropsiquiatr., vol. 81, núm. 4, pp. 217–225, 2018.\n<br>[4]\tC. Alva-Díaz et al., “Prevalence and incidence of epilepsy in Latin America and the Caribbean: A systematic review and meta-analysis of population-based studies”, Epilepsia, vol. 62, núm. 4, pp. 984–996, abr. 2021.\n<br>[5]\t“Convulsiones - Síntomas y causas - Mayo Clinic”. https://www.mayoclinic.org/es-es/diseases-conditions/seizure/symptoms-causes/syc-20365711 (consultado sep. 08, 2021).</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sIIH8hWldO",
+          "_anchor": "content5-3q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5331,6 +5331,24 @@
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor"
           },
+          "_name": "content11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info\" href=\"page5.html\" data-app-placeholder=\"Type Text\">CONTEXTO</a>\n                    <a class=\"btn btn-info\" href=\"page6.html\" data-app-placeholder=\"Type Text\">DEFINICIÓN</a> <a class=\"btn btn-info\" href=\"page7.html\" data-app-placeholder=\"Type Text\">EFECTOS</a> <a class=\"btn btn-info\" href=\"page8.html\" data-app-placeholder=\"Type Text\">CAUSAS</a> <a class=\"btn btn-info\" href=\"page9.html\" data-app-placeholder=\"Type Text\">PROPUESTA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content11-5b",
+          "_isUserblock": true,
+          "_cid": "sJi5XYhzfZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\"><b>\n                    REFERENCIAS</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">[6]\t“Más de la mitad de las personas con epilepsia no reciben ningún tipo de atención en América Latina y el Caribe”. https://www.paho.org/es/noticias/24-1-2019-mas-mitad-personas-con-epilepsia-no-reciben-ningun-tipo-atencion-america-latina (consultado sep. 08, 2021).\n<br>[7]\t“Informe sobre la epilepsia en América Latina y el Caribe”, Organización Panamericana de la Salud, 2013. [En línea]. Disponible en: https://www.paho.org/hq/dmdocuments/2013/SPA-epilepsia1.pdf\n<br>[8]\t“Oxford Textbook of the Psychiatry of Intellectual Disability”. https://books.google.com/books/about/Oxford_Textbook_of_the_Psychiatry_of_Int.html?hl=es&amp;id=NPDGDwAAQBAJ (consultado sep. 08, 2021).&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
@@ -5954,6 +5972,24 @@
           "_anchor": "content7-55",
           "_isUserblock": true,
           "_cid": "sJi3ePGzFM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info\" href=\"page5.html\" data-app-placeholder=\"Type Text\">CONTEXTO</a>\n                    <a class=\"btn btn-info\" href=\"page6.html\" data-app-placeholder=\"Type Text\">DEFINICIÓN</a> <a class=\"btn btn-info\" href=\"page7.html\" data-app-placeholder=\"Type Text\">EFECTOS</a> <a class=\"btn btn-info\" href=\"page8.html\" data-app-placeholder=\"Type Text\">CAUSAS</a> <a class=\"btn btn-info\" href=\"page9.html\" data-app-placeholder=\"Type Text\">PROPUESTA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content11-5c",
+          "_isUserblock": true,
+          "_cid": "sJi61u1E6T",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
