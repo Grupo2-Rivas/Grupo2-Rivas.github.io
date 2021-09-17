@@ -4106,28 +4106,28 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sIFuBrnuEM .carousel {
-    min-height: 500px;
+    min-height: 900px;
   }
   .cid-sIFuBrnuEM .carousel img {
-    max-height: 500px;
+    max-height: 900px;
     object-fit: contain;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .cid-sIFuBrnuEM .carousel {
-    min-height: 325px;
+    min-height: 585px;
   }
   .cid-sIFuBrnuEM .carousel img {
-    max-height: 325px;
+    max-height: 585px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
   .cid-sIFuBrnuEM .carousel {
-    min-height: 275px;
+    min-height: 495px;
   }
   .cid-sIFuBrnuEM .carousel img {
-    max-height: 275px;
+    max-height: 495px;
     object-fit: contain;
   }
   .cid-sIFuBrnuEM .container .carousel-control {
