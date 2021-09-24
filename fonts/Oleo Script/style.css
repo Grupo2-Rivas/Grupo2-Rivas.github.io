@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'Oleo Script';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/milis/OneDrive/Documentos/GitHub/Grupo2-Rivas.github.io/fonts/Oleo Script/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Oleo Script';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/milis/OneDrive/Documentos/GitHub/Grupo2-Rivas.github.io/fonts/Oleo Script/regular.ttf') format('truetype');
+}
