@@ -2221,31 +2221,27 @@ a {
 .cid-sJKMKGveSo .mbr-text {
   text-align: left;
 }
-.cid-sK9zWdeCfy {
+.cid-sK9ZqvO7gS {
   padding-top: 0rem;
-  padding-bottom: 1rem;
-  background-color: #ffffff;
+  padding-bottom: 0rem;
+  background-color: #fafafa;
 }
-@media (min-width: 1500px) {
-  .cid-sK9zWdeCfy .container {
-    max-width: 1400px;
-  }
-}
-.cid-sK9zWdeCfy .mbr-iconfont {
+.cid-sK9ZqvO7gS .mbr-iconfont {
   display: block;
-  font-size: 5rem;
-  color: #037682;
+  font-size: 4rem;
+  color: #ffffff;
   margin-bottom: 2rem;
 }
-.cid-sK9zWdeCfy .card-wrapper {
-  margin-top: 3rem;
-}
-.cid-sK9zWdeCfy .row {
+.cid-sK9ZqvO7gS .card-wrapper {
+  min-height: 220px;
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding: 1rem;
+  background: #ffffff;
+  display: flex;
   justify-content: center;
-}
-.cid-sK9zWdeCfy .card-title,
-.cid-sK9zWdeCfy .iconfont-wrapper {
-  color: #174141;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 .cid-sJKM2JTh27 {
   padding-top: 2rem;
