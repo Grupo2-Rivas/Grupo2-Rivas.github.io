@@ -5241,57 +5241,57 @@ a {
 .cid-sPaQrSDh4E img {
   width: 100%;
 }
-.cid-sPatiQwW4s {
+.cid-sPaTdiokX4 {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sPaTdiokX4 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sPaTdiokX4 .row {
+  flex-direction: row-reverse;
+}
+.cid-sPaTdiokX4 img {
+  width: 100%;
+}
+.cid-sPaTdmDFYa {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
-  .cid-sPatiQwW4s .image-wrapper {
+  .cid-sPaTdmDFYa .image-wrapper {
     margin-bottom: 1rem;
   }
 }
-.cid-sPatiQwW4s .row {
+.cid-sPaTdmDFYa .row {
   flex-direction: row-reverse;
 }
-.cid-sPatiQwW4s img {
+.cid-sPaTdmDFYa img {
   width: 100%;
 }
-.cid-sPaxl9Gv05 {
+.cid-sPaTdpfDyX {
   padding-top: 0rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
-  .cid-sPaxl9Gv05 .image-wrapper {
+  .cid-sPaTdpfDyX .image-wrapper {
     margin-bottom: 1rem;
   }
 }
-.cid-sPaxl9Gv05 .row {
+.cid-sPaTdpfDyX .row {
   flex-direction: row-reverse;
 }
-.cid-sPaxl9Gv05 img {
-  width: 100%;
-}
-.cid-sPaxlkl5RO {
-  padding-top: 0rem;
-  padding-bottom: 1rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-sPaxlkl5RO .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sPaxlkl5RO .row {
-  flex-direction: row-reverse;
-}
-.cid-sPaxlkl5RO img {
+.cid-sPaTdpfDyX img {
   width: 100%;
 }
 .cid-sPaStrBtU1 {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -5303,6 +5303,22 @@ a {
   flex-direction: row-reverse;
 }
 .cid-sPaStrBtU1 img {
+  width: 100%;
+}
+.cid-sPaTdrIzHA {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sPaTdrIzHA .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sPaTdrIzHA .row {
+  flex-direction: row-reverse;
+}
+.cid-sPaTdrIzHA img {
   width: 100%;
 }
 .cid-sP4mtdnMbO {
