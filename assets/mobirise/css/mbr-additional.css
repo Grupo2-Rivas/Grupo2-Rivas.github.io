@@ -5225,6 +5225,54 @@ a {
 .cid-sP4snnexUv .mbr-section-btn {
   text-align: center;
 }
+.cid-sPatiQwW4s {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sPatiQwW4s .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sPatiQwW4s .row {
+  flex-direction: row-reverse;
+}
+.cid-sPatiQwW4s img {
+  width: 100%;
+}
+.cid-sPaxl9Gv05 {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sPaxl9Gv05 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sPaxl9Gv05 .row {
+  flex-direction: row-reverse;
+}
+.cid-sPaxl9Gv05 img {
+  width: 100%;
+}
+.cid-sPaxlkl5RO {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sPaxlkl5RO .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sPaxlkl5RO .row {
+  flex-direction: row-reverse;
+}
+.cid-sPaxlkl5RO img {
+  width: 100%;
+}
 .cid-sP4mtdnMbO {
   padding-top: 2rem;
   padding-bottom: 0rem;
