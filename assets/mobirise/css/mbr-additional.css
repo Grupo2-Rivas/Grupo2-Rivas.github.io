@@ -5338,8 +5338,8 @@ a {
   width: 100%;
 }
 .cid-sPb4wGvYK5 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -5352,6 +5352,18 @@ a {
 }
 .cid-sPb4wGvYK5 img {
   width: 100%;
+}
+.cid-sPbetu82r0 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.cid-sPbetu82r0 .mbr-section-title {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-sPbetu82r0 .mbr-text,
+.cid-sPbetu82r0 .mbr-section-btn {
+  text-align: center;
 }
 .cid-sP4mtdnMbO {
   padding-top: 2rem;
