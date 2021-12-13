@@ -361,30 +361,153 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <hr class="line">
-                <p class="mbr-text align-center mbr-fonts-style my-4 display-7">l software es la parte más importante del sistema, ya que será este el que se encargue de procesar las señales y activar los airbags en caso sea necesario. La programación de este software se debe hacer de tal forma que funcione de manera autónoma, así el usuario no tiene que hacer nada para operarlo. <br></p>
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-7">El software es la parte más importante del sistema, ya que será este el que se encargue de procesar las señales y activar los airbags en caso sea necesario. La programación de este software se debe hacer de tal forma que funcione de manera autónoma, así el usuario no tiene que hacer nada para operarlo. <br></p>
                 <hr class="line">
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image4 cid-sRrjo4PEwy" id="image4-dd">
-    
+<section data-bs-version="5.1" class="features19 cid-sRrmfmVBXN" id="features20-di">
 
     
-
+    
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="image-wrapper">
-                    <img src="assets/images/verde-y-rojo-ilustrado-infografa-de-proceso-800x2000.png" alt="Mobirise">
-                    
+        <div class="row justify-content-center">
+            
+            <div class="col-12 col-md-10">
+                <div class="item mbr-flex">
+                    <div class="icon-box">
+                        <span class="step-number mbr-fonts-style display-5">1</span>
+                    </div>
+                    <div class="text-box">
+                        
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">El programa inicia declarando las librerías a utilizar, que son programas ya definidos que añaden nuevas funcionalidades a nuestro programa. Utilizaremos las librerías SPI.h, Wire.h, SparkFun_ADXL345.h y math.h, las dos primeras para la comunicación serial, la tercera para la operación del acelerómetro y la tercera para realizar operaciones matemáticas.</h5>
+                    </div>
                 </div>
+                <div class="item mbr-flex">
+                    <div class="icon-box">
+                        <span class="step-number mbr-fonts-style display-5">2</span>
+                    </div>
+                    <div class="text-box">
+                        
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Después de declarar las variables necesarias para las operaciones creamos dos funciones, una para detectar un ritmo elevado mediante el sensor de ritmo cardiaco, y otra para detectar una caída mediante la lectura de las posiciones en el acelerómetro. La primera utiliza la medición de pulsos para determinar cuando el pulso del usuario sube a más de 100 latidos por minuto. Y la segunda utiliza el cambio de posiciones para transformarlo en aceleración y determinar si hay una aceleración específica que nos indique una caída.</h5>
+                    </div>
+                </div>
+                <div class="item mbr-flex last">
+                    <div class="icon-box">
+                        <span class="step-number mbr-fonts-style display-5">3</span>
+                    </div>
+                    <div class="text-box">
+                        
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Finalmente, el programa al detectar estas dos coincidencias enviará una señal digital a los airbags, los cuales se activarán y protegerán al usuario. Posterior a eso, y debido a que el sistema ya ha sido activado, este se apagará automáticamente para permitir el cambio de airbags.</h5>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
             </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-sRrl6dAD3u" id="image1-dh">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
                     <img src="assets/images/diagrama-507x1435.png" alt="Mobirise">
-                    
+                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4">
+                    Image Description</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Código del funcionamiento del sistema</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-4">// Librerías a utilizar
+<br>#include <spi.h>
+<br>#include <wire.h>
+<br>#include <sparkfun_adxl345.h> 
+<br>#include <math.h>
+<br>
+<br>// Variables del SEN-11574
+<br>int PulsePin = 3; // Pin Analógico al que va conectado el Sensor SEN-11574
+<br>int Signal;       // holds the incoming raw data. Signal value can range from 0-1024
+<br>
+<br>int dR = 100;     // Modificar de tal forma que detecte cuando hay un cambio brusco en el ritmo cardíaco.
+<br>
+<br>// Creamos el objeto ADXL345
+<br>ADXL345 adxl = ADXL345();
+<br>
+<br>// Variables del ADXL345
+<br>const int G = 76; // Constante de transformación
+<br>int x,y,z; // Variables de aceleración
+<br>
+<br>// Variables para la bolsa de aire
+<br>int pinB = 3;
+<br>
+<br>// Función para detectar el ritmo elevado
+<br>bool ritmoElevado(){
+<br>  int S0 = analogRead(PulsePin);
+<br>  int t0 = millis();
+<br>  delay(10);
+<br>  int S1 = analogRead(PulsePin);
+<br>  int t1 = millis();
+<br>  int dt = t1 - t0;
+<br>
+<br>  float dr = (S1-S0)/dt;
+<br>
+<br>  return dr &gt; dR;
+<br>}
+<br>
+<br>// Creamos la función para detectar una caída
+<br>bool caida(){
+<br>  // Leemos los valores
+<br>  adxl.readAccel(&amp;x, &amp;y, &amp;z);
+<br>
+<br>  // Realizamos los cálculos
+<br>  float G_x = x - 386;
+<br>  float G_y = y - 388;
+<br>  float G_z = z - 400;
+<br>
+<br>  // Transformamos los datos
+<br>  float Gx = 1.0*G_x/G;
+<br>  float Gy = 1.0*G_y/G;
+<br>  float Gz = 1.0*G_z/G;
+<br>
+<br>  // Elevamos al cuadrado la gravedad de cada eje
+<br>  float G2x = pow(Gx,2);
+<br>  float G2y = pow(Gy,2);
+<br>  float G2z = pow(Gz,2);
+<br>  
+<br>  // Gravedad resultante
+<br>  float G_resultante = sqrt(G2x + G2y + G2z);
+<br>
+<br>  return G_resultante &gt; 2.3;
+<br>}
+<br>
+<br>void setup() {
+<br>  pinMode(pinB, OUTPUT);
+<br>  Serial.begin(9600);
+<br>  adxl.powerOn(); // Encendemos el ADXL345
+<br>  adxl.setRangeSetting(16); // Definimos el rango (2, 4, 8 o 16)
+<br>}
+<br>
+<br>void loop() {
+<br>  if(ritmoElevado() &amp;&amp; caida()){ // En caso de que haya caída y ritmo elevado se activa la bolsa de aire
+<br>    digitalWrite(pinB, HIGH);
+<br>    return 0; // Como ya hemos realizado la acción principal, el programa termina
+<br>  }
+<br>  delay(100);
+<br>}&nbsp;<br></math.h></sparkfun_adxl345.h></wire.h></spi.h></p>
                 </div>
             </div>
         </div>
@@ -481,7 +604,7 @@
             
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/m" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Mobirise site maker - <a href="https://mobirise.site/p" style="color:#aaa;">See it</a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/q" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Designed with Mobirise <a href="https://mobirise.site/j" style="color:#aaa;">page</a> software</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
